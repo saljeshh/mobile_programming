@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_views"
+            android:textStyle="bold"
+            android:textSize = "20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/test_bg"
+            android:text="Hello" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/this_is_to_be_saved_in_string_xml_alt_enter_garne_yo_text_ma"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_views"
+            android:textSize="18sp"
+            android:inputType="text"
+            android:drawableEnd="@android:drawable/ic_menu_search"
+            android:drawablePadding="16dp"
+            android:text="@string/password"
+            android:padding="15sp"
+            />
+
+        <Button
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_camera"
+            android:textSize="16sp"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is checkbox"
+            android:textColor="@color/teal_200"
+            android:textStyle="italic"
+            android:checked="false"
+            />
+
+
+
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_20"
+                android:text="Test"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_20"
+                android:text="Test"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_20"
+                android:text="Test"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_20"
+                android:text="Test"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/javaimg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Maldives"
+                />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dubai"
+                />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Switz"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clike me 1"
+                android:textSize="12sp"
+                android:id="@+id/tv_text1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clike me 2"
+                android:id="@+id/tv_text2"
+                />
+
+        </LinearLayout>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_array"
+        android:entries="@array/array_test"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+    />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Firstapp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name ="text_views">This is text our view ok</string>
+    <string name="password">password</string>
+    <string name="this_is_to_be_saved_in_string_xml_alt_enter_garne_yo_text_ma">This is to be saved in string.xml == ALT + ENTER GARNE YO TEXT MA</string>
+    <string-array name="array_test">
+
+
+        <item>str1</item>
+        <item>str2</item>
+        <item>str3</item>
+    </string-array>
+</resources>
