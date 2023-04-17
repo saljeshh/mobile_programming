@@ -33,6 +33,12 @@
 
         <activity android:name=".SecondActivity" android:exported="true"/>
 
+        <activity android:name=".ActivityFragEg" android:exported="true"/>
+
+        <activity android:name=".ActivityFragmentTransitionExample" android:exported="true">
+
+        </activity>
+
     </application>
 
 
