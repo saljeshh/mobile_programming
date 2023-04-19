@@ -40,7 +40,8 @@ public class FirstActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //intent is permission
                 // sidae pathako vayera sidae bhitra banako Intent object
-                startActivity(new Intent(FirstActivity.this,ActivityFragmentTransitionExample.class));
+                /*startActivity(new Intent(FirstActivity.this,ActivityFragmentTransitionExample.class));*/
+                startActivity(new Intent(FirstActivity.this,DashboardActivity.class));
             }
         });
 

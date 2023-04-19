@@ -35,6 +35,8 @@
 
         <activity android:name=".ActivityFragEg" android:exported="true"/>
 
+        <activity android:name=".DashboardActivity" android:exported="true"/>
+
         <activity android:name=".ActivityFragmentTransitionExample" android:exported="true">
 
         </activity>

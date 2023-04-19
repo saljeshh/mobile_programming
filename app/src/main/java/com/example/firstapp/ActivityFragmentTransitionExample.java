@@ -30,7 +30,7 @@ public class ActivityFragmentTransitionExample extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.container,new FragmentSecond())
+                        .replace(R.id.container,new FragmentSecond("Text testing for the ok"))
                         .commit();
             }
         });
