@@ -24,11 +24,7 @@
 
         <activity android:name=".FirstActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name=".SecondActivity" android:exported="true"/>
@@ -36,6 +32,15 @@
         <activity android:name=".ActivityFragEg" android:exported="true"/>
 
         <activity android:name=".DashboardActivity" android:exported="true"/>
+
+        <activity android:name=".ActivityDialogExample" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
 
         <activity android:name=".ActivityFragmentTransitionExample" android:exported="true">
 
