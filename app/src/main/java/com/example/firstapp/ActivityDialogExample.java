@@ -86,7 +86,8 @@ public class ActivityDialogExample extends AppCompatActivity implements View.OnC
     }
 
     private void showCustomDialog(){
-
+        CustomDialogFragment dialogFragment = new CustomDialogFragment();
+        dialogFragment.show(getSupportFragmentManager(), "Custom Dialog");
     }
 
     @Override
