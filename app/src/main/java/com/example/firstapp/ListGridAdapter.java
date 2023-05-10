@@ -25,7 +25,6 @@ public class ListGridAdapter extends ArrayAdapter<ListData> {
         mInflater = LayoutInflater.from(mContext);
         data = (ArrayList<ListData>) objects;
     }
-
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
