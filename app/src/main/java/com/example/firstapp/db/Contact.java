@@ -12,6 +12,9 @@ public class Contact {
         this.name = name;
         this.phone_number = phone_number;
     }
+    public Contact(){
+
+    }
 
     public Contact(String name,String phone_number){
 
